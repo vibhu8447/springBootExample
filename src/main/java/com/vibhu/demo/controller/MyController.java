@@ -24,7 +24,7 @@ public class MyController {
 	@ResponseBody
 	public String home() {
 		System.out.println("this is home");
-		return "this is home";
+		return "this is restApi Application";
 	}
 	
 	@GetMapping("/course/getall")
